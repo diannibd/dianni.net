@@ -1,46 +1,61 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>dianni.net/home@cloudflare</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dianni.net</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
 
-<!-- begin leftbar -->
-<link rel="Stylesheet" type="text/css" href="https://dianni.net/newstyle.css"> </head>
-<body  link="#006666" Vlink="#AA0000" Alink="#006666">
+  <!-- Header -->
+  <header class="border-b border-zinc-800">
+    <div class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-x-3">
+        <a href="index.html" class="text-xl font-semibold tracking-tight">dianni.net</a>
+      </div>
+      <nav class="flex items-center gap-x-8 text-sm">
+        <a href="index.html" class="text-white font-medium">Home</a>
+        <a href="carnivore.html" class="hover:text-white transition-colors">Carnivore</a>
+        <a href="paleo.html" class="hover:text-white transition-colors">Paleo/Keto</a>
+      </nav>
+    </div>
+  </header>
 
-<table 
-summary ="Layout table: One row, two cells"
-border="0" align=center cellspacing="0" cellpadding="10" > 
+  <main class="max-w-4xl mx-auto px-6 py-16">
 
-<tr><td width="22%" valign="top" >
-<a href="index.html"><b>Home</b></a><br><br>
+    <!-- Daily Reading -->
+    <div class="max-w-2xl">
+      <div class="flex items-center gap-x-3 mb-6">
+        <i class="fa-solid fa-book-open text-3xl text-emerald-400"></i>
+        <h1 class="text-4xl font-semibold tracking-tight">/daily reading</h1>
+      </div>
 
-<a href="carnivore.html"><b>Carnivore</b></a><br>Carnivore <br> <br>
+      <div class="bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors rounded-3xl p-8">
+        <a href="carnivore.html"
+           class="group flex items-center justify-between">
+          <div>
+            <h2 class="text-2xl font-semibold group-hover:text-white transition-colors">Click here to get healthy</h2>
+            <p class="text-zinc-400 mt-2">Carnivore resources and reading</p>
+          </div>
+          <i class="fa-solid fa-arrow-right text-2xl text-zinc-400 group-hover:text-white group-hover:translate-x-1 transition-all"></i>
+        </a>
+      </div>
+    </div>
 
-<a href="paleo.html"><b>Paleo</b></a><br>Paleo/Keto <br><br>
+  </main>
 
-<a href="mailto:barnaby_at_dianni_dot_net"><b>Email@</b></a>
+  <footer class="border-t border-zinc-800 mt-12">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-zinc-500">
+      <div>dianni.net</div>
+      <a href="mailto:barnaby@dianni.net" class="hover:text-zinc-300 transition-colors">Email</a>
+    </div>
+  </footer>
 
-
-</td>
-<td valign="top">
-<!-- end leftbar -->
-
-<h2>/daily reading </h2>
-<table border="0">
-
- <--- Click here to get healthy
-
-</table>
-
-<br><br>
-<!-- begin rightbar -->
-</td> 
-</table>
-<!-- end rightbar -->
-
-</tr>
-</table>
 </body>
 </html>
-

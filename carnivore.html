@@ -1,49 +1,151 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-   "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title> dianni.net/carnivore </title>
-<body>
-<?
-include ("leftbar");
-?>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carnivore • dianni.net</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
 
-<h3>Carnivore </h3>
+  <!-- Header -->
+  <header class="border-b border-zinc-800">
+    <div class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-x-3">
+        <a href="index.html" class="text-xl font-semibold tracking-tight">dianni.net</a>
+      </div>
+      <nav class="flex items-center gap-x-8 text-sm">
+        <a href="index.html" class="hover:text-white transition-colors">Home</a>
+        <a href="carnivore.html" class="text-white font-medium">Carnivore</a>
+        <a href="paleo.html" class="hover:text-white transition-colors">Paleo/Keto</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    
+    <!-- Page Header -->
+    <div class="mb-10">
+      <div class="flex items-center gap-x-3 mb-3">
+        <i class="fa-solid fa-drumstick-bite text-3xl text-red-500"></i>
+        <h1 class="text-4xl font-semibold tracking-tight">Carnivore</h1>
+      </div>
+      <p class="text-zinc-400 text-lg">Resources, reading, and viewing on the carnivore diet.</p>
+    </div>
 
-<h4> Reading </h4>
-<p><a href="https://www.caseymeans.com/goodenergy ">Good Energy</a> </p>
+    <!-- Reading Section -->
+    <div class="mb-12">
+      <div class="flex items-center gap-x-2 mb-4">
+        <i class="fa-solid fa-book text-xl text-zinc-400"></i>
+        <h2 class="text-2xl font-semibold">Reading</h2>
+      </div>
+      
+      <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-colors">
+        <a href="https://www.caseymeans.com/goodenergy" target="_blank" 
+           class="flex items-start gap-x-4 group">
+          <div class="flex-1">
+            <h3 class="font-semibold text-lg group-hover:text-white transition-colors">Good Energy</h3>
+            <p class="text-zinc-400 mt-1">Casey Means</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square text-zinc-500 group-hover:text-white mt-1 transition-colors"></i>
+        </a>
+      </div>
+    </div>
 
-<h4>Viewing </h4>
-<p> Old Guy Carnivore </p>
-<a href=" https://www.youtube.com/watch?v=vG8I2tG7lyE ">Take my CARB ADDICTION TEST - Odds are YOU WILL FAIL! </a> </p> <p>
+    <!-- Viewing Section -->
+    <div>
+      <div class="flex items-center gap-x-2 mb-4">
+        <i class="fa-solid fa-play text-xl text-zinc-400"></i>
+        <h2 class="text-2xl font-semibold">Viewing</h2>
+      </div>
 
-<p> Dr. Shawn Baker </p>
-<a href=" https://www.youtube.com/watch?v=4u1Eai8uca4 ">Vegan Influencer Turns To MEAT (Carnivore Transformation | Alyse Parker)</a> </p>
-<p> <a href=" https://open.spotify.com/episode/6BVcDMKLN820nNXYSPcbwv ">Joe Rogan Podcast #2069  Nov 28 2023</a> </p>
-<p> <a href=" https://www.youtube.com/watch?v=4X8ZeJstYic&list=PL-ceA9Rzu0JXRzNITaYJNfwIVF0Z3gsun&index=3 ">Meat and gout?</a> </p>
+      <div class="space-y-3">
+        
+        <!-- Video 1 -->
+        <a href="https://www.youtube.com/watch?v=vG8I2tG7lyE" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Old Guy Carnivore</p>
+              <p class="text-sm text-zinc-400 mt-1">Take my CARB ADDICTION TEST - Odds are YOU WILL FAIL!</p>
+            </div>
+            <i class="fa-brands fa-youtube text-red-500 text-xl mt-1 group-hover:scale-110 transition-transform"></i>
+          </div>
+        </a>
 
-<p> Dr. Anthony Chafee </p>
-<a href=" https://www.youtube.com/watch?v=j1cqNDDG4aA ">Plants are trying to kill you!</a> </p>
-<p> <a href=" https://www.youtube.com/watch?v=C-WUb3mJEso ">Chaffee, Why We Are Carnivores</a> </p>
-<p> <a href=" https://www.youtube.com/playlist?list=PLkkRSboRx_u2ymm3qL2PvUiwSa8KWvmk7 ">Getting Started Playlist</a> </p>
-<p> <a href=" https://www.youtube.com/watch?v=WECp8VcjNzo ">Exposing FRAUD Cholesterol Studies!</a> </p> 
+        <!-- Video 2 -->
+        <a href="https://www.youtube.com/watch?v=4u1Eai8uca4" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Dr. Shawn Baker</p>
+              <p class="text-sm text-zinc-400 mt-1">Vegan Influencer Turns To MEAT (Carnivore Transformation | Alyse Parker)</p>
+            </div>
+            <i class="fa-brands fa-youtube text-red-500 text-xl mt-1 group-hover:scale-110 transition-transform"></i>
+          </div>
+        </a>
 
-<p> MRI full body scan results </p>
-<a href=" https://www.youtube.com/watch?v=uXrdP06tfdw ">Keto, Carnivore & OMAD Put to the Test {full body MRI scan}</a> </p>
+        <!-- Joe Rogan -->
+        <a href="https://open.spotify.com/episode/6BVcDMKLN820nNXYSPcbwv" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Joe Rogan Podcast #2069</p>
+              <p class="text-sm text-zinc-400 mt-1">Nov 28, 2023</p>
+            </div>
+            <i class="fa-brands fa-spotify text-green-500 text-xl mt-1"></i>
+          </div>
+        </a>
 
-<!-- skel here
+        <!-- Dr. Anthony Chaffee -->
+        <a href="https://www.youtube.com/watch?v=j1cqNDDG4aA" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Dr. Anthony Chaffee</p>
+              <p class="text-sm text-zinc-400 mt-1">Plants are trying to kill you!</p>
+            </div>
+            <i class="fa-brands fa-youtube text-red-500 text-xl mt-1 group-hover:scale-110 transition-transform"></i>
+          </div>
+        </a>
 
-<a href=" 
-">
-</a>
+        <a href="https://www.youtube.com/watch?v=C-WUb3mJEso" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Dr. Anthony Chaffee</p>
+              <p class="text-sm text-zinc-400 mt-1">Why We Are Carnivores</p>
+            </div>
+            <i class="fa-brands fa-youtube text-red-500 text-xl mt-1 group-hover:scale-110 transition-transform"></i>
+          </div>
+        </a>
 
--->
+        <a href="https://www.youtube.com/playlist?list=PLkkRSboRx_u2ymm3qL2PvUiwSa8KWvmk7" target="_blank"
+           class="block bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 transition-all group">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="font-medium">Getting Started Playlist</p>
+              <p class="text-sm text-zinc-400 mt-1">Carnivore diet beginner resources</p>
+            </div>
+            <i class="fa-brands fa-youtube text-red-500 text-xl mt-1 group-hover:scale-110 transition-transform"></i>
+          </div>
+        </a>
 
-<?
-include ("rightbar");
-?>
+      </div>
+    </div>
 
-</pre>
+  </main>
+
+  <footer class="border-t border-zinc-800 mt-12">
+    <div class="max-w-4xl mx-auto px-6 py-6 text-sm text-zinc-500">
+      dianni.net
+    </div>
+  </footer>
+
 </body>
 </html>
