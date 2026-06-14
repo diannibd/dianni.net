@@ -1,0 +1,39 @@
+/* styles.css - Theme & Color Control */
+
+:root {
+  /* === Theme Colors (Easy to change) === */
+  /* --bg-color: #18181b;           /* Main background (zinc-900) */
+  --bg-color: #f4f4f5;           /* Main background (zinc-900) */
+  /* --card-bg: #27272a;            /* Card / box background */
+  --card-bg: #ffffff;            /* Card / box background */
+  --border-color: #3f3f46;       /* Borders */
+  /* --text-color: #e4e4e7;         /* Main text */
+  --text-color: #18181b;         /* Main text */
+  --text-muted: #a1a1aa;         /* Muted / secondary text */
+  --accent: #10b981;             /* Accent color (emerald) */
+}
+
+/* Apply theme variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card,
+section,
+.bg-zinc-800,
+.bg-zinc-900 {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+.text-zinc-400,
+.text-zinc-500 {
+  color: var(--text-muted);
+}
+
+/* Optional: Make hover states consistent */
+a:hover {
+  color: var(--accent);
+}
+

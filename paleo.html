@@ -1,340 +1,166 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-   "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
- <title> dianni.net/health </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleo / Keto • dianni.net</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
 <body>
-<?
-include ("leftbar");
-?>
 
-<h3> Most everything I ever knew about diet exercise and nutrition was wrong...  </h3>
+  <!-- Header -->
+  <header class="border-b">
+    <div class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-x-3">
+        <a href="index.html" class="text-xl font-semibold tracking-tight">dianni.net</a>
+      </div>
+      <nav class="flex items-center gap-x-8 text-sm">
+        <a href="index.html">Home</a>
+        <a href="carnivore.html">Carnivore</a>
+        <a href="paleo.html" class="font-medium">Paleo/Keto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12">
+
+    <!-- Intro -->
+    <div class="mb-10">
+      <h1 class="text-3xl font-semibold tracking-tight mb-4">
+        Most everything I ever knew about diet, exercise and nutrition was wrong...
+      </h1>
+      <p class="text-muted">For the young and hip, just go to reddit/r/keto</p>
+    </div>
+
+    <!-- The First 30 days -->
+    <div class="mb-10">
+      <h2 class="text-xl font-semibold mb-2">The First 30 days</h2>
+      <a href="https://whole30.com/" target="_blank" class="text-emerald-600 hover:underline">The Whole 30 Program</a>
+    </div>
+
+    <div class="mb-10">
+      <p class="text-muted mb-6">Below here are the articles that helped and motivated me in 2009/2010</p>
+
+      <!-- The How -->
+      <div class="mb-8">
+        <h3 class="font-semibold mb-1">The How..</h3>
+        <a href="http://www.paleonu.com/get-started" target="_blank" class="text-emerald-600 hover:underline">
+          http://www.paleonu.com/get-started
+        </a>
+      </div>
+
+      <!-- The Why -->
+      <div class="mb-8">
+        <h3 class="font-semibold mb-1">The Why..</h3>
+        <p>
+          Find and Watch the videos 
+          <a href="https://www.youtube.com/watch?v=bYb7W2mHP6s" target="_blank" class="text-emerald-600 hover:underline">'Big Fat Lies'</a> 
+          and 
+          <a href="https://www.youtube.com/watch?v=dBnniua6-oM" target="_blank" class="text-emerald-600 hover:underline">'Sugar: The Bitter Truth'</a>
+        </p>
+      </div>
+
+      <!-- The Book -->
+      <div class="mb-8">
+        <h3 class="font-semibold mb-1">The Book..</h3>
+        <p><strong>"Good Calories, Bad Calories"</strong> by Gary Taubes</p>
+      </div>
+
+      <!-- Motivations -->
+      <div class="mb-8">
+        <h3 class="font-semibold mb-1">Motivations..</h3>
+        <p><a href="https://www.theunconquerabledave.com/" target="_blank" class="text-emerald-600 hover:underline">The Unconquerable Dave</a> — Fun Success Story</p>
+        <p><a href="https://www.youtube.com/watch?v=2XD4d0q0v0o" target="_blank" class="text-emerald-600 hover:underline">Fat Head Movie</a> — Paleo Primer</p>
+      </div>
+    </div>
+
+    <!-- Photo -->
+    <div class="mb-10">
+      <h3 class="font-semibold mb-4">Farrell and I after a year of eating better</h3>
+      
+      <img src="Progress.jpg" 
+           alt="Farrell and I after a year of eating better" 
+           class="rounded-2xl border shadow-lg max-w-full md:max-w-lg">
+
+      <p class="mt-3 text-muted">Read! The truth will make you Healthy.</p>
+    </div>
+
+    <!-- Lessons -->
+    <div class="mb-10 space-y-4">
+      <h3 class="font-semibold">Lesson #1: Lifelong Health Starts Here</h3>
+      <h3 class="font-semibold">Lesson #2: How Agriculture Ruined Your Health (and What to Do About It)</h3>
+      <h3 class="font-semibold">Lesson #3: Why Eating Animals Makes Everything Easier</h3>
+      <h3 class="font-semibold">Lesson #4: What to Eat and What to Avoid for Lifelong Health</h3>
+    </div>
+
+    <!-- Success Story -->
+    <div class="mb-10">
+      <p><strong>Diagnosed with Type II, cured with Paleo. Dropped 73 lbs in a year.</strong></p>
+      <a href="http://paleoeater.blogspot.com/" target="_blank" class="text-emerald-600 hover:underline">
+        http://paleoeater.blogspot.com/
+      </a>
+    </div>
+
+    <!-- Transition Article -->
+    <div class="mb-10">
+      <p>Good article about the transition from burning sugar/carbs to burning fat/protein.</p>
+      <a href="https://www.thepaleodiet.com/" target="_blank" class="text-emerald-600 hover:underline">Theory to practice</a>
+    </div>
+
+    <!-- Sugar Toxic -->
+    <div class="mb-10">
+      <p>
+        <strong>Is Sugar Toxic?</strong> — 
+        <a href="https://www.nytimes.com/2011/04/17/magazine/mag-17Sugar-t.html" target="_blank" class="text-emerald-600 hover:underline">By Gary Taubes</a>
+      </p>
+    </div>
+
+    <!-- Why Fast -->
+    <div class="mb-10">
+      <h3 class="font-semibold mb-2">Why Fast?</h3>
+      <ul class="list-disc list-inside text-muted space-y-1">
+        <li>Weight Loss</li>
+        <li>Cancer fighting</li>
+        <li>Longevity</li>
+        <li>Brain Function</li>
+        <li>Workout Recovery</li>
+        <li>Choose a Method</li>
+      </ul>
+    </div>
+
+    <!-- Gary Taubes Conclusions -->
+    <div>
+      <h3 class="font-semibold mb-4">Gary Taubes "inescapable" conclusions (p.454):</h3>
+
+      <div class="space-y-4 text-sm">
+        <p>1. Dietary fat, whether saturated or not, is not a cause of obesity, heart disease or any other chronic disease of civilization.</p>
+        <p>2. The problem is the carbohydrates in the diet, their effect on insulin secretion, and thus the hormonal regulation of homeostasis, the entire harmonic ensemble of the human body. The more easily digestible and refined the carbohydrates, the greater the effect on your health, weight and well-being.</p>
+        <p>3. Sugars (sucrose and high-fructose corn syrup specifically) are particularly harmful, probably because the combination of fructose and glucose simultaneously elevates insulin levels while overloading the liver with carbohydrates.</p>
+        <p>4. Through their direct effect on insulin and blood sugar, refined carbohydrates, starches and sugars are the dietary cause of coronary heart disease and diabetes. They are the most likely dietary causes of cancer, Alzheimers disease, and the other chronic diseases of civilization.</p>
+        <p>5. Obesity is a disorder of excess fat accumulation, not overeating, and not sedentary behavior.</p>
+        <p>6. Consuming excess calories does not cause us to grow fatter, any more than it causes a child to grow taller. Expending more energy than we consume does not lead to long-term weight loss; it leads to hunger.</p>
+        <p>7. Fattening and obesity are caused by an imbalance — a disequilibrium — in the hormonal regulation of adipose tissue and fat metabolism.</p>
+        <p>8. Insulin is the primary regulator of fat storage. When insulin levels are elevated (either chronically or after a meal) we accumulate fat in our fat tissue. When insulin levels fall, we release fat from our fat tissue and use it for fuel.</p>
+        <p>9. By stimulating insulin secretion, carbohydrates make us fat and ultimately cause obesity. The fewer carbohydrates we consume, the leaner we will be.</p>
+        <p>10. By driving fat accumulation, carbohydrates also increase hunger and decrease the amount of energy we expend in metabolism and physical activity.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t mt-12">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between text-sm">
+      <div>dianni.net</div>
+      <a href="mailto:barnaby@dianni.net">Email</a>
+    </div>
+  </footer>
 
-<pre>
-
-For the young and hip, just go to reddit.
-     <a href="http://www.reddit.com/r/keto">reddit/r/keto</a>
-
-The First 30 days.
-     <a href="https://whole30.com/whole30-program-rules/">The Whole 30 Program</a>
-
-Below here are the articles that helped and motivated me in 2009/2010
-
-The How..
-     <a href="https://web.archive.org/web/20110315144025/http://www.paleonu.com/get-started" >http://www.paleonu.com/get-started </a>
-
-The Why..
-    Find and Watch the videos 'Big Fat Lies' and 'Sugar: The Bitter Truth'
-
-The Book..
-    <a href="http://www.amazon.com/exec/obidos/ASIN/B000UZNSC2/paleonu-20">"Good Calories, Bad Calories" by Gary Taubes </a>
-
-Motivations.. 
-     <a href="http://www.marksdailyapple.com/the-unconquerable-dave/">The Unconquerable Dave </a> Fun Success Story
-     <a href="http://www.fathead-movie.com/">Fat Head</a> Movie Paleo Primer
-
-<h4>Farrell and I after a year of eating better </h4> <img src="Progress.jpg"/>
-<!-- <h4>I've been 152 + or - 4 lbs since May 2010</h4> <img src="loss.jpg"/> -->
-
-<h3>Read! The truth will make you Healthy.</h3>
-<a href=" http://www.marksdailyapple.com/lifelong-health-starts-here/">
-Lesson #1: Lifelong Health Starts Here </a>
-
-<a href=" http://www.marksdailyapple.com/how-agriculture-ruined-your-health-and-what-to-do-about-it/">
-Lesson #2: How Agriculture Ruined Your Health (and What to Do About It) </a>
-
-<a href=" http://www.marksdailyapple.com/why-eating-animals-makes-everything-easier/">
-Lesson #3: Why Eating Animals Makes Everything Easier </a>
-
-<a href=" http://www.marksdailyapple.com/what-to-eat-and-what-to-avoid-for-lifelong-health/">
-Lesson #4: What to Eat and What to Avoid for Lifelong Health </a>
-
-Diagnosed with Type II, cured with Paleo.  Dropped 73 lbs in a year.
-    <a href="http://paleoeater.blogspot.com/">http://paleoeater.blogspot.com/</a>
-
-Good article about the transition from burning sugar/carbs to burning fat/protein.
-    <a href="http://theorytopractice.wordpress.com/2010/01/16/re-tooling-the-internal-machinery-for-high-octane-paleo-fuel/">Theory to practice </a>
-
-Is Sugar Toxic?
-    <a href="http://www.nytimes.com/2011/04/17/magazine/mag-17Sugar-t.html">Is Sugar Toxic?  By Gary Taubes </a>
-
-Why Fast?
-        <a href="http://www.marksdailyapple.com/fasting-weight-loss/">Weight Loss</a>
-        <a href="http://www.marksdailyapple.com/fasting-cancer/">Cancer fighting</a>
-        <a href="http://www.marksdailyapple.com/fasting-longevity-lifespan/">Longevity</a>
-        <a href="http://www.marksdailyapple.com/fasting-brain-function/">Brain Function</a>
-        <a href="http://www.marksdailyapple.com/fasting-exercise-workout-recovery/">Workout Recovery</a>
-        <a href="http://www.marksdailyapple.com/why-fast-part-six-choosing-a-method/">Choose a Method</a>
-
-
-<h3> Gary Taubes "inescapable" conclusions (p.454): </h3>
-
-    1.  Dietary fat, whether saturated or not, is not a cause of obesity, heart
-    disease or any other chronic disease of civilization.
-
-    2.  The problem is the carbohydrates in the diet, their effect on insulin
-    secretion, and thus the hormonal regulation of homeostasis, the entire
-    harmonic ensemble of the human body. The more easily digestible and refined
-    the carbohydrates, the greater the effect on your health, weight and
-    well-being.
-
-    3.  Sugars (sucrose and high-fructose corn syrup specifically) are
-    particularly harmful, probably because the combination of fructose and
-    glucose simultaneously elevates insulin levels while overloading the liver
-    with carbohydrates.
-
-    4.  Through their direct effect on insulin and blood sugar, refined
-    carbohydrates, starches and sugars are the dietary cause of coronary heart
-    disease and diabetes. They are the most likely dietary causes of cancer,
-    Alzheimers disease, and the other chronic diseases of civilization.
-
-    5.  Obesity is a disorder of excess fat accumulation, not overeating, and
-    not sedentary behavior.
-
-    6.  Consuming excess calories does not cause us to grow fatter, any more
-    than it causes a child to grow taller. Expending more energy than we consume
-    does not lead to long-term weight loss; it leads to hunger.
-
-    7.  Fattening and obesity are caused by an imbalance _a disequilibrium_ in the
-    hormonal regulation of adipose tissue and fat metabolism. Fat synthesis and
-    storage exceed the mobilization of fat from the adipose tissue and its
-    subsequent oxidation. We become leaner when the hormonal regulation of fat
-    tissue reverses this balance.
-
-    8.  Insulin is the primary regulator of fat storage. When insulin levels are
-    elevated (either chronically or after a meal) we accumulate fat in our fat
-    tissue. When insulin levels fall, we release fat from our fat tissue and use
-    it for fuel.
-
-    9.  By stimulating insulin secretion, carbohydrates make us fat and
-    ultimately cause obesity. The fewer carbohydrates we consume, the leaner we
-    will be.
-
-    10.  By driving fat accumulation, carbohydrates also increase hunger and
-    decrease the amount of energy we expend in metabolism and physical activity.
-
-<!--
-
-<h3> Notes and stuff </h3>
-
-Something else that needs to be recognized about the unrealistic cholesterol
-goals most doctors have for us, that I just realized.
-
-Here are the recommended levels for each particle type:
-
-Total: 200 or less
-HDL: 40 or greater (for women), 50 or greater (for men)
-LDL: 100 or less
-Triglycerides: 150 or less
-
-Now, when they calculate your total cholesterol, they divide your triglycerides
-by 5. (By the way, I found out why they do that - about 20% of your
-triglycerides = your VLDL concentration, which is what they're really after -
-the VLDL. Triglycerides can do other Bad Nasty Things, but they normally only
-look at its VLDL content.)
-
-Simple arithmetic tells us that the individual "ideal" numbers do not add up to
-the total "ideal" number, thusly:
-
-For women: 40 (HDL) + 100 (LDL) + 30 (VLDL - 20% of "ideal" trigylcerides) =
-170. 
-For men: 50 (HDL) + 100 (LDL) + 30 (VLDL - 20% of "ideal" trigylcerides) = 180.
-
-If you're a low-carber, as nearly all Primals must be of necessity, your HDL
-will tend to rise while your triglycerides fall. But! Your LDL doesn't
-necessarily go down; it just changes size from pattern B (bad) to pattern A
-(neutral). So when you add a higher HDL number to the overall cholesterol count,
-you can see that an HDL of 80 for a woman or 70 for a man will bump your
-cholesterol up to the "too high!" number of 200, even if all else remains at the
-"ideal" level. And if your LDL is up above that "ideal" number of 100, even
-though it might be below the former "ideal" number of 150, it doesn't take much
-to put you over the top for the "ideal total" number that they want and expect.
-
-If my HDL had already started to rise comparable to the drop I'm having in my
-triglycerides, my cholesterol would be over 200 instead of 177 and my doctor
-would be talking about statins. 
-
-Now, up until about the late 1990s, the "ideal total" was 240 or below. That
-allowed some reasonable play in your HDL, your LDL and your VLDL without making
-it damn near impossible to remain within the recommended parameters. Then they
-found that not enough people were being diagnosed with high cholesterol, thus
-limiting how many people could be put on statins. So they lowered the number to
-200, which is nearly impossible to meet on the SAD. 
-
-Just some food for thought.
-
-#bdd 2010-06-15 12:33:08 - - - - - - - - - - - - - - - - - - - -
-
-What Are Advanced Glycation End Products?
-
-http://en.wikipedia.org/wiki/Advanced_glycation_end_product
-
-</pre>
-<h3> PaNu GetStarted in text, in case that site goes dark </h3>
-
-<p><strong>PaNu</strong><strong> A modified paleolithic diet that can
-improve your health by duplicating the evolutionary metabolic milieu.</strong></p>
-
-<p>How do you do it?</p>
-
-<p>Here is a 12- step list of what to do. Go as far down the list as you can in whatever
-time frame you can manage. The further along the list you stop, the healthier you will
-be. There is no counting, measuring, or weighing. You are not required to purchase
-anything specific from me or anyone else. There are no special supplements, drugs or
-testing required.*</p>
-
-<p>1.&nbsp;<a
-href="http://www.paleonu.com/panu-weblog/2009/6/28/1-eliminate-sugar-and-refined-carbohydrates-like-white-flour.html">Eliminate
-sugar</a> (including fruit juices and sports drinks) and all foods that contain
-flour.</p>
-
-<p>2. Start eating proper fats - Use healthy <a
-href="http://www.paleonu.com/panu-weblog/2009/6/22/fats-and-oils.html">animal
-fats</a>&nbsp;or coconut fat to substitute fat calories for carbohydrate calories that
-formerly came from sugar and flour. <a
-href="http://www.paleonu.com/panu-weblog/2009/6/13/using-dairy-to-substitute-fats-for-carbohydrates.html">Drink
-whole cream</a>&nbsp;or coconut milk.</p>
-
-<p>3. Eliminate gluten&nbsp;<a
-href="http://www.paleonu.com/panu-weblog/2009/6/23/the-argument-against-cereal-grains.html">grains</a>.
-Limit grains like corn and rice, which are nutritionally poor.</p>
-
-<p>4. Eliminate <a
-href="http://www.paleonu.com/panu-weblog/2009/6/22/fats-and-oils.html">grain and seed
-derived oils</a> (cooking oils) Cook with Ghee, butter,&nbsp;animal fats, or coconut
-oil.</p>
-
-<p>5. Favor ruminants like beef, lamb and bison for your meat. Eat eggs and some
-fish.</p>
-
-<p>6. Make sure you are Vitamin D replete. Get daily midday sun or consider
-supplementation.</p>
-
-<p>7. 2 meals a day is best. Don't graze like a herbivore.</p>
-
-<p>8. Adjust your&nbsp;<a
-href="http://www.paleonu.com/panu-weblog/2009/5/18/6s-and-3s-and-the-logic-of-grain-avoidance.html">6s
-and 3s</a>. Pastured (grass fed) dairy and grass fed beef or bison has a more optimal 6:3
-ratio, more vitamins and CLA. A teaspoon or two of Carlson's fish oil (1-2 g DHA/EPA)
-daily is good compensatory supplementation if you eat grain-fed beef or no fish.</p>
-
-<p>9. Proper exercise - emphasizing resistance and interval training over long aerobic
-sessions.</p>
-
-<p>10. Most modern fruit is just a candy bar from a tree. Go easy on bags of sugar like
-apples. Stick with berries and avoid watermelon which is pure fructose. Eat in
-moderation.</p>
-
-<p>11. Eliminate legumes</p>
-
-<p>12. Eliminate all remaining dairy including cheese- (now you are "Orthodox
-paleolithic")</p>
-
-</strong></p>
-
-<p>&nbsp;</p>
-
-<p><strong>No counting, measuring or weighing is required, nor is it
-encouraged.</strong></p>
-
-<p><strong>The plan is about what <em>not</em> to eat more than what you <em>should</em>
-eat.</strong></p>
-
-<p><strong>For what I eat (not what you should eat, just what I eat) see <a
-href="http://www.paleonu.com/panu-weblog/2009/11/13/what-i-eat.html">this</a>.</strong></p>
-
-<p><strong>Did you notice that there is no step that says what your macronutrient ratios
-should be?</strong></p>
-
-<p><strong>Good, because there isn't (and never has been) one.</strong></p>
-
-<p><strong>See&nbsp;<a
-href="http://www.paleonu.com/panu-weblog/2009/8/27/how-to-lose-weight.html">How to lose
-weight</a>&nbsp;if you are obese or have metabolic syndrome or&nbsp;<a
-href="http://www.paleonu.com/panu-weblog/2010/2/12/panu-and-type-ii-diabetes.html">diabetes</a>.
-Otherwise, the ratios are not specified. PaNu practitioners typically range from 5-35%
-carbohydrate, from 10-30% protein and from 50 to 80% fat (mostly from animals) but wider
-ranges are entirely possible if you are not dieting and you are meticulous about the
-quality of your animal food sources. </strong></p>
-
-<p><strong>PaNu tends to be lower carbohydrate than the standard american diet (SAD)
-because you can only eat so much, and eating animals gives you lots of fat. &nbsp;But it
-is not really a "low carb" diet as you do not count anything, you just avoid certain
-foods that happen to be largely carbohydrate. Most PaNu eaters only know macronutrient
-metrics in retrospect, as they don't target numbers just like wild paleolithic humans
-didn't target numbers.</strong></p>
-
-<p><strong>If you are not fat and you like to eat potatoes, EAT THEM. I don't, but that
-doesn't mean you can't.</strong></p>
-
-<p>If you can do step 1, that is about 50% of the benefit and alone a huge improvement on
-the standard american diet (SAD) By about step 6 you are at about 75% , by step 9 about
-80% and at 10 you are at 99% for most people. These are just estimates, of course.</p>
-
-<p>Here is the kernel of the theory:</p>
-
-<p>Insulin is a phylogenetically old hormone. It is a biological messenger that in
-excess, is metabolically saying the following to your tissue and organs: "Go ahead and
-store energy, mature, reproduce and die." Hyperinsulinism in humans is linked to
-diabetes, alzheimer dementia, metabolic syndrome, obesity, coronary disease and
-epithelial cancers.</p>
-
-<p>Hyperinsulinism is related to metabolic derangements that are likely caused by the
-neolithic agents of disease:</p>
-
-<p>The three main neolithic agents are Fructose, Wheat and excess Linoleic Acid (n-6
-PUFA)</p>
-
-<p>During most of our evolutionary past, animal products, including organs and bone
-marrow of mammals, fish, and invertebrates (insects) were the preferred foods,
-supplemented by edible plants (not grains) until the dawn of agriculture. Fruit was
-seasonal and not yet bred for maximum sweetness. Food was eaten less frequently, on
-average had lower n-6, fructose, and carbohydrate content than the typical american diet
-, and was likely characterized by occasional involuntary periods of intermittent fasting.
-Grains were absent or trivial sources of nutrition.</p>
-
-<p>Humans are omnivores on the carnivorous end of the spectrum. Not canids, but closer to
-canids than chimpanzees.</p>
-
-<p>Like most animals that are not birds or rodents, we are not adapted to eating grass
-seeds, to which we have been significantly exposed for only about 10,000 years. They
-contain molecules that are specifically designed to discourage consumption, as well as
-other problematic chemicals.</p>
-
-<p>The diet is not about eating exactly what "cavemen" ate, or killing your own food. It
-is solely about more closely duplicating what I believe are the key elements of
-the&nbsp;<em>internal</em>&nbsp;hormonal metabolic milieu that we evolved under from
-especially less than 1 million years ago to about 10,000 years ago. This is likely to be
-achieved not by&nbsp;eating&nbsp;specific things, but more by&nbsp;<em>not
-eating</em>&nbsp;specific things.</p>
-
-<p>Is there a way to live in a world of abundant food while avoiding the risk of
-metabolic syndrome and associated diseases of civilization and the immune dysfunction
-associated with eating grass seeds that cannot even be eaten without mechanical
-processing ?&nbsp;</p>
-
-<p>Yes, you can work your way down this list.</p>
-
-<p>Check the website occasionally for more details - I will elaborate as time allows - or
-you can post questions in the comment section of the blog.</p>
-
-<p>&nbsp;</p>
-
-<p>* This is not medical advice. I am confident this is the healthiest way to eat based
-on currently available science. &nbsp;However, if you have any serious medical condition
-that requires treatment and in particular if you take medication for diabetes, thyroid
-disorders or autoimmune diseases, make dietary changes only in consultation with your
-physician. Your medications may need to be adjusted, as you may well need less of
-them!</p>
-
--->
-
-
-<?
-include ("rightbar");
-?>
-
-
-</pre>
 </body>
 </html>
+
