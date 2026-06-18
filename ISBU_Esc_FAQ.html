@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>ISBU Escalation FAQ</title>
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Verdana}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Verdana}
+	p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Verdana}
+	p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Verdana}
+    A:link { color: #00c; background: transparent }
+    A:visited { color: #808; background: transparent }
+    A:active { color: #c00; background: transparent }
+    A:hover { background-color: #aaa; }
+    li {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Verdana}
+  </style>
+</head>
+<body>
+<p class="p4"><b>6500 Escalation Guidelines</b></p>
+<p class="p2"><br></p>
+<p class="p3"> Expectations when CA, Account Teams, and ISBU are working customer escalations.
+<p class="p2"><br></p>
+<p class="p3"><b>Level 1: Troubleshooting and local escalation. </b>
+
+<ol>
+<li> Does the HW/SW support <a href=http://www.cisco.com/univercd/cc/td/doc/product/lan/cat6000/relnotes/index.htm> it?</a>
+<li> Is it <a href=http://www.cisco.com/univercd/cc/td/doc/product/lan/cat6000/index.htm> configured</a> correctly?
+<li> Search <a href="http://topic.cisco.com/">topic</a> for similar solved cases.
+<li> Search the cs-cat6000 or cs-7600 <a href="http://topic.cisco.com/cgi-bin/search_advanced_news_vivisimo.pl">aliases</a> for similar questions.
+<li> Search <a href="http://bock-bock.cisco.com/wiki/Main_Page">bock-bock</a> for TME info.
+<li> Search the <a href="http://wwwin.cisco.com/dss/isbu/">BU site</a> for presentations and whitepapers.
+</ol>
+
+<p class="p2"><br></p>
+<p class="p3"><b>Level 2: Escalation within CA</b>
+<p class="p2"><b>Note:</b> Case owner continues to coordinate all communication with the customer as other contacts get engaged.
+<p class="p2"><br></p>
+<ol>
+<li> Document work to date in TAC case notes.
+<li> Email appropriate product alias cs-cat6000. Local team rules regarding alias use still apply.</p> *
+<ul>
+<li style="list-style-type: lower-alpha "> Describe customer situation and urgency.
+<li style="list-style-type: lower-alpha "> Concise problem description.
+
+<ul>
+<li> What did you expect?
+<li> What is happening?
+<li> What do you think the problem is and why?
+<li> Topology in fixed width ASCII font or link to gif/jpg (no .ppt or .doc)
+<li> Basic HW, config, SW version info, logs.
+<li> All tracebacks decoded.
+</ul>
+
+<li style="list-style-type: lower-alpha "> Additional supporting data at the end or via URL, exclude irrelevant data.
+<li style="list-style-type: lower-alpha "> Summary of troubleshooting and previous escalation steps.
+</ul>
+<li>Lab recreate to verify if problem is a new or unreproduced bug. **
+<li><b>NOTE</b> TAC escalation should be engaged by this point.
+<li><b>CRITICAL CASES ONLY</b>:Engage 6500 escalation resources at this point.
+</ol>
+<p class="p2"><br></p>
+<p class="p2">* Please review <a href="http://www.catb.org/~esr/faqs/smart-questions.html">smart questions.</a> if you haven't sent questions to a technical alias before.
+<p class="p2">** If HW for a recreate is not available in your lab, open a <a href="http://calo.cisco.com">CALO</a> recreate request.
+<p class="p2"><br></p>
+<p class="p3"><b>Level 3: Escalation to BU</b></p>
+<p class="p2">If escalating an existing DDTS to raise priority then contact the DE-Manager.
+<p class="p2">If escalating a high priority (CAP) customer issue then generate an email including the following:
+<br>
+<ul>
+<li>Explain the customer network impact.
+<li>Document previous troubleshooting and problem escalation.
+<li>List contacts relating to this issue.
+<li>Explain what help is needed and urgency.
+<li>Send email to <a href="mailto:bdianni@cisco.com">bdianni</a>
+<li>There is no BU pending status. Case owner is responsible to make forward progress on customer issues.
+</ul>
+
+<p class="p2"><br></p>
+<p class="p3"><b>BU Response:</b>
+<p class="p2">Cases will be accepted after confirmation of previous escalation steps. Once a case is accepted, the DSSBU will provide:
+<ul>
+<li> Guidance on troubleshooting and recreates.
+<li> Analysis of data collected from customer networks.
+<li> Coordination of BU support effort.
+<li> Coordination of communication between BU and support team.
+<li> Recreates when appropriate and only after CA has made a good faith effort to recreate.
+<li> Periodic status updates to BU leadership on critical customer issues.
+<li> Participation in direct customer communication when appropriate.
+</ul>
+<br>
+<p class="p3"><b>After escalation to BU, CA case owner continues to:</b>
+<ul>
+<li> Continues to drive overall troubleshooting effort.
+<li> Continues to drive communication between BU and customer (conf calls, email threads)
+<li> Take ownership of tracking DDTS.
+<li> Make and track throttle commit requests.
+<li> Continue to maintain C3 case notes to reflect status.
+<li> Work closely with BU owner to:
+    <ul>
+    <li> Provide status to customer.
+    <li> Continue recreate attempts.
+    <li> Assist in verifying accuracy of fix.
+    </ul>
+</ul>
+<p class="p2"><br></p>
+<p class="p3"><b>Notes:</b>
+<ul>
+<li> The 6500 escalation team engages on specific critical issues - all accepted critical issues for a customer will be coordinated by the same engineer, but one problem being accepted does not imply that all other current and future problems are exempt from the escalation process.
+<li> DDTS for customer issues should be filed by CA.
+<li> A CA engineer should be part of <b><u>*all*</u></b> communication between the BU, CAP team, account team, and customers.
+</ul>
+<p class="p2"><br></p>
+<p class="p2">Owner: Barnaby DiAnni (bdianni@cisco.com)</p>
+</body>
+</html>
